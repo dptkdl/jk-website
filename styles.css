@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  cursor: url("images/smiley.svg"), auto;
+  font-family: 'MainWebFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@font-face {
+  font-family: 'MainWebFont';
+  src: url('fonts/Myfont1-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+  font-size:xx-large
+}
+
+h1 {
+  font-size: 400%;
+}
+
+h2 {
+  font-size: 300%;
+}
+
+p {
+  font-size: 200%;
+}
+
+li {
+  font-size: 200%;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  background: #f4f7fb;
+  color: #253238;
+}
+
+header {
+  background: linear-gradient(120deg, #968874, #463413);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* card design */
+section {
+  background: #e1ceee;
+  border: 1px solid #840573;
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+/* card header */
+section h2 {
+  margin-top: 0;
+  color: #dd50ba;
+}
+
+footer {
+  padding: 24px;
+  text-align: center;
+  background: #e8edf4;
+  font-size: 0.9rem;
+}
+
+.scale:hover {
+    transform: scale(1.05);
+    transition: var(--transition);
+    cursor: url("images/smiley.svg") 0 0, auto;
+}
