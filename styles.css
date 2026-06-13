@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  cursor: url("images/smiley.svg"), auto;
 }
 
 body {
@@ -47,5 +48,4 @@ footer {
 
 .scale:hover {
     transform: scale(1.05);
-    cursor: url("images/smiley.svg") 0 0, auto;
 }
