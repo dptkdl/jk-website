@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   cursor: url("images/smiley.svg"), auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 }
 
 header {
-  background: linear-gradient(120deg, #d894d8, #840573);
+  background: linear-gradient(120deg, #968874, #463413);
   color: #fff;
   padding: 60px 20px;
   text-align: center;
@@ -48,4 +49,12 @@ footer {
 
 .scale:hover {
     transform: scale(1.05);
+    transition: var(--transition);
+    cursor: url("images/smiley.svg") 0 0, auto;
+}
+
+.circle-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
 }
