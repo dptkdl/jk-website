@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
-  cursor: url("images/smiley.svg"), auto;
+  cursor: url("media/smiley.svg"), auto;
   font-family: 'MainWebFont', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @font-face {
   font-family: 'MainWebFont';
-  src: url('fonts/Myfont1-Regular.ttf') format('truetype');
+  src: url('fonts/font1-big.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap; 
@@ -15,6 +15,13 @@
 
 h1 {
   font-size: 400%;
+  color: #dd50ba;
+  text-shadow: 2px 2px black;
+}
+
+.float:hover {
+  transform: translateY(-12px);
+  transition: var(--transition);
 }
 
 h2 {
@@ -30,7 +37,7 @@ li {
 }
 
 body {
-  font-family: "Segoe UI", Roboto, sans-serif;
+  /* font-family: "Segoe UI", Roboto, sans-serif; */
   margin: 0;
   background: #f4f7fb;
   color: #253238;
@@ -75,5 +82,40 @@ footer {
 .scale:hover {
     transform: scale(1.05);
     transition: var(--transition);
-    cursor: url("images/smiley.svg") 0 0, auto;
+    cursor: url("media/pointer.svg"), auto;
+}
+
+.links * {
+  cursor: url("media/pointer.svg"), auto;
+  transition: all 0.1s ease;
+}
+
+.full-screen-media {
+  /* Force element to match viewport dimensions */
+  width: 100vw;
+  height: 100vh;
+  
+  /* Prevent stretching by cropping edges proportionally */
+  object-fit: cover; 
+  
+  /* Center the media inside its frame */
+  object-position: center; 
+  
+  /* Optional: keeps it in the background behind your text */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; 
+}
+
+.video-text * {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-text:hover * {
+  cursor: url("media/pointer.svg"), auto;
 }
