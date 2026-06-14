@@ -92,7 +92,7 @@ footer {
 
 .full-screen-media {
   /* Force element to match viewport dimensions */
-  width: 100dvw;
+  width: 100%;
   height: 100dvh;
   
   /* Prevent stretching by cropping edges proportionally */
