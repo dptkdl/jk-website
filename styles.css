@@ -109,7 +109,7 @@ footer {
 }
 
 .video-text * {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: url("fonts/font1-big.ttf");
   position: absolute;
   top: 50%;
   left: 50%;
