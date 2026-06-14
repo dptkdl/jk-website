@@ -77,3 +77,8 @@ footer {
     transition: var(--transition);
     cursor: url("images/pointer.svg"), auto;
 }
+
+.links * {
+  cursor: url("images/pointer.svg"), auto;
+  transition: all 0.1s ease;
+}
