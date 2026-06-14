@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'MainWebFont';
-  src: url('fonts/Myfont1-Regular.ttf') format('truetype');
+  src: url('fonts/font1-big.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap; 
@@ -75,5 +75,5 @@ footer {
 .scale:hover {
     transform: scale(1.05);
     transition: var(--transition);
-    cursor: url("images/smiley.svg") 0 0, auto;
+    cursor: url("images/pointer.svg"), auto;
 }
